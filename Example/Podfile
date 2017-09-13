@@ -1,3 +1,5 @@
+platform :ios, '9.0'
+
 use_frameworks!
 
 # ignore all warnings from all pods
@@ -5,7 +7,7 @@ inhibit_all_warnings!
 
 target 'DocumentsOCR_Example' do
     
-  pod 'TesseractOCRiOS', :git => 'https://github.com/appintheair/Tesseract-OCR-iOS'
+    #pod 'TesseractOCRiOS', :git => 'https://github.com/appintheair/Tesseract-OCR-iOS'
   pod 'DocumentsOCR', :path => '../'
   pod 'SVProgressHUD'
   
